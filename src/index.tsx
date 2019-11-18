@@ -11,7 +11,7 @@ export interface StorageItemOpts {
   type?: any;
 }
 
-export default class StorageItem {
+export class StorageItem {
   key: string;
   value: any;
   provider: any;
