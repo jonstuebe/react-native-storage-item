@@ -9,7 +9,7 @@
 ### Install
 
 ```sh
-yarn add react-native-storage-item @react-native-communit/async-storage
+yarn add react-native-storage-item @react-native-community/async-storage
 ```
 
 ### Example
