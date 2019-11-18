@@ -9,6 +9,14 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "react",
+    "react-native",
+    "react-native-web",
+    "persistence",
+    "localstorage",
+    "asyncstorage"
+  ],
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
