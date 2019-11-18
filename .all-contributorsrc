@@ -1,0 +1,24 @@
+{
+  "projectName": "react-native-storage-item",
+  "projectOwner": "jonstuebe",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "jonstuebe",
+      "name": "Jon Stuebe",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/156722?v=4",
+      "profile": "http://jonstuebe.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
