@@ -1,6 +1,6 @@
 {
   "name": "react-native-storage-item",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "license": "MIT",
   "author": "Jon Stuebe",
   "main": "dist/index.js",
