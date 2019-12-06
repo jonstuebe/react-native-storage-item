@@ -63,8 +63,8 @@ export class StorageItem {
     return;
   }
   set(newValue: any) {
-    this.value = this.setTransform(newValue);
-    this.provider.setItem(this.key, this.value);
+    this.value = this.getTransform(this.setTransform(newValue));
+    this.provider.setItem(this.key, this.setTransform(newValue));
     return this.value;
   }
   remove() {

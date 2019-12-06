@@ -1,8 +1,8 @@
 import { AsyncStorage } from 'react-native';
-import StorageItem from '../src';
+import { StorageItem } from '../src';
 
 describe('StorageItem', () => {
-  it('value gets set based off of initial value', () => {
+  it('value gets set based off of initial value (string)', () => {
     const fooStorage = new StorageItem({
       key: 'foo',
       initialValue: 'bar',
