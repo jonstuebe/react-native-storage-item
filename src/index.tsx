@@ -33,8 +33,8 @@ export class StorageItem {
       (opts.transform && opts.transform.set) || this._defaultSetTransform;
     this.value = this.getTransform(
       opts.initialValue === false
-        ? opts.initialValue
-        : opts.initialValue || null
+        ? this.setTransform(opts.initialValue)
+        : this.setTransform(opts.initialValue) || null
     );
   }
   _defaultGetTransform(value: any) {
